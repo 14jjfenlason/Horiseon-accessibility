@@ -1,0 +1,230 @@
+* {
+    /* Dimensions inbetween all text and images on the web page */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    /* Fonts of header text */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    /* Positions title */
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    /* Color of title */
+    color: #d9dcd6;
+}
+
+.header nav {
+    /* Font of links in header */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    /* Position of header links */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+body {
+    /* Background color of the entire body of the web page */
+    background-color: #d9dcd6;
+}
+
+a {
+    /* Color of main body text*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    /* Dimensions of main image */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    /* Font size of main body text */
+    font-size: 16px;
+}
+
+.float-left {
+    /* Positions Search Engine Optimization and Social Media Marketing */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Positions Online Reputation Management */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    /* Places main body text to the left of additional text */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    /* Dimensions of search engine optimization text */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    /* Dimensions of online reputation management text */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    /* Dimensions of social media marketing text */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    /* Dimensions of search engine optimization image */
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    /* Dimensions of online reputation management image*/
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    /* Dimensions of social media marketing image */
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    /* Dimensions of search engine optimization header */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    /* Dimensions of online reputation management header */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    /* Dimensions of social media marketing header */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    /* Dimensions of additional text */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    /* Positions lead generation text */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    /* Positions brand awareness */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    /* Positions cost management */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    /* Positions lead generation header */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    /* Positions brand awareness header */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    /* Positions cost management header */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    /* Positions lead generation image */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    /* Positions brand awareness */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    /* Positions cost management image */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    /* Dimensions of footer */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    /* Dimensions of the header of the footer */
+    font-size: 20px;
+}
